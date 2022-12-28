@@ -6,6 +6,7 @@ import edu.kh.objarray.practice.model.vo.Employee;
 
 public class EmployeeService {
 	
+	
 	// 사원 정보를 저장할 Employee 배열
 	private Employee[] employees = new Employee[3];
 	private Scanner sc = new Scanner(System.in);
