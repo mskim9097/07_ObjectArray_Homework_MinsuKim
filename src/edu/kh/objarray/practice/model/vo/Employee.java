@@ -58,8 +58,9 @@ public class Employee {
 		this.salary = salary;
 	}
 	
+	@Override
 	public String toString() {
-		return "사번 : " + empNo + ", 이름 : " + name + ", 부서 : " + dept
+		return "\n사번 : " + empNo + ", 이름 : " + name + ", 부서 : " + dept
 				+ ", 직급 : " + job + ", 급여 : " + salary;
 	}
 	
