@@ -60,7 +60,7 @@ public class Employee {
 	
 	@Override
 	public String toString() {
-		return "\n사번 : " + empNo + ", 이름 : " + name + ", 부서 : " + dept
+		return "사번 : " + empNo + ", 이름 : " + name + ", 부서 : " + dept
 				+ ", 직급 : " + job + ", 급여 : " + salary;
 	}
 	
